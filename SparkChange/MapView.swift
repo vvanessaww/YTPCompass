@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  SparkChange
 //
-//  Created by Charlotte Meyer on 11/15/21.
+//  Created by Charlotte Meyer on 11/05/21.
 //
 import MapKit
 import SwiftUI
@@ -13,7 +13,9 @@ struct AnnotatedItem: Identifiable {
     var coordinate: CLLocationCoordinate2D
 }
 struct MapView: View {
-
+    @StateObject var lat = Latitude()
+    @StateObject var long = Longitude()
+    
     @State var isModal: Bool = false
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(
@@ -49,6 +51,7 @@ struct MapView: View {
         AnnotatedItem(name: "UCLA Sign", coordinate: .init(latitude: 34.06857051087697, longitude:-118.44874095170877)),
         AnnotatedItem(name: "SAE", coordinate: .init(latitude: 34.06656891779748, longitude: -118.44780957910977)),
         AnnotatedItem(name: "SAE", coordinate: .init(latitude: 34.06656891779748, longitude: -118.44780957910977))
+//        AnnotatedItem(name: "UserInput", coordinate: .init(latitude: Double(lat.latitude)!, longitude: Double(long.longitude)!)
         ]
 
     var body: some View {
@@ -65,12 +68,10 @@ struct MapView: View {
                             .foregroundColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
                     }
                 }
-                    .edgesIgnoringSafeArea(.all)
+                .edgesIgnoringSafeArea(.top)
             }
             VStack {
                 Spacer()
-//                Spacer()
-//                Spacer()
                 Button("MAKE A REPORT") {
                     self.isModal = true
                 }

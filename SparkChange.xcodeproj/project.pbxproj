@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4B4F80E0EFA18B7EDFEC4464 /* Pods_SparkChange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F41CA3C9E685FBB2B4A379 /* Pods_SparkChange.framework */; };
+		612DD08D275488200008FF69 /* ThankyouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612DD08C2754881F0008FF69 /* ThankyouView.swift */; };
 		61B7CB3827519B90005DC444 /* Podfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 61B7CB3727519B90005DC444 /* Podfile.txt */; };
 		61B7CB3B2751A276005DC444 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 61B7CB3A2751A276005DC444 /* WaterfallGrid */; };
-		61B7CB3F2751BBF2005DC444 /* Screen Shot 2021-11-26 at 5.05.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B7CB3E2751BBF2005DC444 /* Screen Shot 2021-11-26 at 5.05.46 PM.png */; };
 		61CEF0DE2742F1860054B565 /* SparkChangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEF0DD2742F1860054B565 /* SparkChangeApp.swift */; };
 		61CEF0E02742F1860054B565 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CEF0DF2742F1860054B565 /* MapView.swift */; };
 		61CEF0E22742F18F0054B565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CEF0E12742F18F0054B565 /* Assets.xcassets */; };
@@ -20,8 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		612DD08C2754881F0008FF69 /* ThankyouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankyouView.swift; sourceTree = "<group>"; };
 		61B7CB3727519B90005DC444 /* Podfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.txt; sourceTree = "<group>"; };
-		61B7CB3E2751BBF2005DC444 /* Screen Shot 2021-11-26 at 5.05.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-11-26 at 5.05.46 PM.png"; sourceTree = "<group>"; };
 		61CEF0DA2742F1860054B565 /* SparkChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CEF0DD2742F1860054B565 /* SparkChangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkChangeApp.swift; sourceTree = "<group>"; };
 		61CEF0DF2742F1860054B565 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 				61CEF0ED27430AA60054B565 /* RessourceView.swift */,
 				61CEF0DF2742F1860054B565 /* MapView.swift */,
 				61CEF0EB2742FADF0054B565 /* ReportView.swift */,
-				61B7CB3E2751BBF2005DC444 /* Screen Shot 2021-11-26 at 5.05.46 PM.png */,
+				612DD08C2754881F0008FF69 /* ThankyouView.swift */,
 				61CEF0E12742F18F0054B565 /* Assets.xcassets */,
 				61CEF0E32742F18F0054B565 /* Preview Content */,
 			);
@@ -102,7 +102,6 @@
 				6B07F7388852E0DD8845450D /* Pods-SparkChange.debug.xcconfig */,
 				D97187650FA7B635FA8C53A3 /* Pods-SparkChange.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B7CB3F2751BBF2005DC444 /* Screen Shot 2021-11-26 at 5.05.46 PM.png in Resources */,
 				61CEF0E52742F18F0054B565 /* Preview Assets.xcassets in Resources */,
 				61B7CB3827519B90005DC444 /* Podfile.txt in Resources */,
 				61CEF0E22742F18F0054B565 /* Assets.xcassets in Resources */,
@@ -211,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61CEF0EE27430AA60054B565 /* RessourceView.swift in Sources */,
+				612DD08D275488200008FF69 /* ThankyouView.swift in Sources */,
 				61CEF0E02742F1860054B565 /* MapView.swift in Sources */,
 				61CEF0DE2742F1860054B565 /* SparkChangeApp.swift in Sources */,
 				61CEF0EC2742FADF0054B565 /* ReportView.swift in Sources */,

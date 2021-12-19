@@ -5,9 +5,6 @@ Application developed for the UCLA Young Tech Professional Bootcamp Fall 2021, S
 
 > Compass is an app which aims to prevent sexual  assault and related incidents by ensuring immediate consequences when it does as well as to increase community transparency through visualization of reported data.
 
-## Code Samples
-
-
 
 ## Installation
 

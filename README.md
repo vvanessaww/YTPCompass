@@ -1,4 +1,5 @@
 # Compass By SparkChange
+Application developed for the UCLA Young Tech Professional Bootcamp Fall 2021, SocialTech Team 6 (SparkChange)
 
 ## Introduction
 
